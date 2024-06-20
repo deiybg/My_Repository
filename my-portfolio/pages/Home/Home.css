@@ -14,14 +14,32 @@
   }
 }
 
-.home > h1 {
+.home > a {
+  font-size: 1.5rem;
+}
+
+.home p {
+  text-align: justify;
+}
+
+.gradient-text {
   font-size: 5.5rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+  background-size: 800% 800%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
 }
 
-.home > a {
-  font-size: 1.5rem;
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
