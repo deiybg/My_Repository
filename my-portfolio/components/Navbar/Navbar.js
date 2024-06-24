@@ -28,6 +28,9 @@ export const Navbar = () => `
         <a href="#" id="projectslink">Projects</a>
     </li>
     <li>
+        <a href="#" id="AboutMe">About Me</a>   
+    </li>
+    <li>
         <button id="themeBtn">☀</button>
     </li>
 </ul>

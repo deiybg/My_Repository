@@ -20,7 +20,7 @@ export const projects = [
     },
     {
       title: "Primer Proyecto Completo",
-      description: "Esta es mi primer proyecto utilizando lo aprendido en HTML5, CSS, Grid y Flex",
+      description: "En este proyecto, me propuse replicar la página web de Under Armour, utilizando una combinación de Grid y Flexbox para lograr un diseño similar",
       image:
         "https://res.cloudinary.com/dhawfyfsv/image/upload/v1718891581/My%20portfolio%7D/html-5-css3_yw1yc7.jpg",
       tech: ["HTML5", "CSS3"],
@@ -28,21 +28,13 @@ export const projects = [
       link: "https://proyecto-1-bay-sigma.vercel.app/",
     },
     {
-      title: "Cuarto proyecto",
-      description: "Esta es la descripción de mi cuarto proyecto",
+      title: "Proyecto con DOM",
+      description: "Este es mi primer proyecto utilizando todo lo aprendido con DOM, intentando replicar un poco la página de PC componentes usando DOM",
       image:
-        "https://images.unsplash.com/photo-1664575198308-3959904fa430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-      tech: ["React", "HTML5", "CSS3", "JavaScript"],
-      github: "http://github.com/myuser/proyecto4",
-      link: "www.proyecto1.com",
+        "https://res.cloudinary.com/dhawfyfsv/image/upload/v1719187026/My%20portfolio%7D/dom_knjs7o.png",
+      tech: ["HTML5", "CSS3", "JavaScript"],
+      github: "https://github.com/deiybg/Practica_DOM",
+      link: "https://practica-dom.vercel.app/",
     },
-    {
-      title: "Quinto proyecto",
-      description: "Esta es la descripción de mi quinto proyecto",
-      image:
-        "https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80",
-      tech: ["React", "HTML5", "CSS3", "JavaScript"],
-      github: "http://github.com/myuser/proyecto5",
-      link: "www.proyecto1.com",
-    },
+    
   ];
