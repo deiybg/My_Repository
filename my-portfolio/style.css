@@ -1,8 +1,8 @@
 :root {
   --primary-dark: whitesmoke;
-  --bg-dark: #111111;
-  --primary-light: #111111;
-  --bg-light: whitesmoke;
+  --bg-dark: #111111d6;
+  --primary-light: #111111d6;
+  --bg-light: rgba(245, 245, 245, 0.978);
   --highlight: #6cace4;
   --divider: rgb(164, 164, 164);
 
@@ -42,6 +42,17 @@ body {
 .light {
   background-color: var(--bg-light);
   color: var(--primary-light);
+}
+
+.light button {
+  color: var(--primary-light);
+}
+
+.light button > img {
+  color: var(--primary-light);
+}
+.light .project-card .header > div > a > img {
+  filter: invert(10%);
 }
 
 main {

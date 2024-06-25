@@ -10,7 +10,7 @@ main.innerHTML= `
 <h2>About Me</h2>
 ${Divider()}
 <section  id="AboutMePerfil">
-<div>
+<div class="imgContainer">
 <img src="https://res.cloudinary.com/dhawfyfsv/image/upload/v1719232301/My%20portfolio%7D/IMG_2137_xf88e1.jpg" class= "ImgPerfil" alt="Imagen perfil Deiby">
 </div>
 <article id="articleMe">
@@ -28,8 +28,22 @@ ${Divider()}
 </div>
 </article>
 </section>
+${Divider()}
 </div>
-
+<h4 class="titleAbout toggleButton">Tecnologías +</h4>
+<div class="moreContent hidden">
+<ul>
+  <li>
+  <img src="https://res.cloudinary.com/dhawfyfsv/image/upload/v1719345178/My%20portfolio%7D/html-5_qva5px.png" alt="Logo HTML5">
+  </li>
+  <li>
+  <img src="https://res.cloudinary.com/dhawfyfsv/image/upload/v1719345178/My%20portfolio%7D/css-3_sk0kjm.png" alt="Logo CSS3">
+  </li>
+  <li>
+  <img src="https://res.cloudinary.com/dhawfyfsv/image/upload/v1719345178/My%20portfolio%7D/js_qvuzow.png" alt="Logo JS">
+  </li>
+</ul>
+</div>
 `;
 const toggleButtons = document.querySelectorAll('.toggleButton');
   toggleButtons.forEach(button => {

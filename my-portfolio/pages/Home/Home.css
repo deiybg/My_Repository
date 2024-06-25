@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .home {
-  padding: 0 8rem;
-  min-height: 80vh;
+  padding: 0 6rem;
+  min-height: 90vh;
+  padding-bottom: 8.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 2rem;
-  padding-bottom: 4rem;
 }
 
 .home h2 {
@@ -24,23 +24,31 @@
   }
 }
 
-.home > a {
-  font-size: 1.5rem;
+.presentation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
 }
-
-.home p {
-  text-align: justify;
-}
-
-.gradient-text {
-  font-size: 5rem;
-  background: linear-gradient(to right, #ff6f61 0%, #ffcc33 50%, #33cc99 100%);
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
+.backgroundImagePresentation {
+  font-size: 1.2rem;
+  background-image: url("https://media.istockphoto.com/id/1147985301/es/vector/tecnolog%C3%ADa-de-fondo.jpg?s=2048x2048&w=is&k=20&c=A48fqRCB0SGtV384hDBPej7wGvVhELlY-IAocdCicAg=");
+  background-size: cover;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient-animation 10s ease infinite;
-  font-family: "Poppins", sans-serif;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.backgroundImage {
+  font-size: 7rem;
+  background-image: url("https://media.istockphoto.com/id/1147985301/es/vector/tecnolog%C3%ADa-de-fondo.jpg?s=2048x2048&w=is&k=20&c=A48fqRCB0SGtV384hDBPej7wGvVhELlY-IAocdCicAg=");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
 }
 
 @keyframes gradient-animation {
